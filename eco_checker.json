@@ -1,0 +1,131 @@
+{
+  "Vandal": {
+    "Classic":true, 
+    "Shorty":true,
+    "Frenzy":true,
+    "Ghost":true,
+    "Sheriff":true,
+    "Stinger":true,
+    "Spectre":true,
+    "Bucky":true,
+    "Judge":true,
+    "Marshal":true,
+    "Ares":true,
+    "Tactical Knife":true
+  },
+  "Phantom": {
+    "Classic":true, 
+    "Shorty":true,
+    "Frenzy":true,
+    "Ghost":true,
+    "Sheriff":true,
+    "Stinger":true,
+    "Spectre":true,
+    "Bucky":true,
+    "Judge":true,
+    "Marshal":true,
+    "Ares":true,
+    "Tactical Knife":true
+  },
+  "Operator":{
+    "Classic":true, 
+    "Shorty":true,
+    "Frenzy":true,
+    "Ghost":true,
+    "Sheriff":true,
+    "Stinger":true,
+    "Spectre":true,
+    "Bucky":true,
+    "Judge":true,
+    "Marshal":true,
+    "Ares":true,
+    "Tactical Knife":true
+  },
+  "Odin":{
+    "Classic":true, 
+    "Shorty":true,
+    "Frenzy":true,
+    "Ghost":true,
+    "Sheriff":true,
+    "Stinger":true,
+    "Spectre":true,
+    "Bucky":true,
+    "Judge":true,
+    "Marshal":true,
+    "Ares":true,
+    "Tactical Knife":true
+  },
+  "Bulldog":{
+    "Classic":true, 
+    "Shorty":true,
+    "Frenzy":true,
+    "Ghost":true,
+    "Sheriff":true,
+    "Stinger":true,
+    "Bucky":true,
+    "Marshal":true,
+    "Tactical Knife":true
+  },
+  "Guardian":{
+    "Classic":true, 
+    "Shorty":true,
+    "Frenzy":true,
+    "Ghost":true,
+    "Sheriff":true,
+    "Stinger":true,
+    "Bucky":true,
+    "Marshal":true,
+    "Tactical Knife":true
+  },
+  "Judge":{
+    "Classic":true, 
+    "Shorty":true,
+    "Frenzy":true,
+    "Ghost":true,
+    "Sheriff":true,
+    "Bucky":true,
+    "Marshal":true,
+    "Tactical Knife":true
+  },
+  "Spectre":{
+    "Classic":true, 
+    "Shorty":true,
+    "Frenzy":true,
+    "Ghost":true,
+    "Sheriff":true,
+    "Bucky":true,
+    "Marshal":true,
+    "Tactical Knife":true
+  },
+  "Ares":{
+    "Classic":true, 
+    "Shorty":true,
+    "Frenzy":true,
+    "Ghost":true,
+    "Sheriff":true,
+    "Bucky":true,
+    "Marshal":true,
+    "Tactical Knife":true
+  },
+  "Stinger":{
+    "Classic":true, 
+    "Shorty":true,
+    "Frenzy":true,
+    "Ghost":true,
+    "Tactical Knife":true
+  },
+  "Marshal":{
+    "Classic":true, 
+    "Shorty":true,
+    "Frenzy":true,
+    "Ghost":true,
+    "Tactical Knife":true
+  },
+  "Bucky":{
+    "Classic":true, 
+    "Shorty":true,
+    "Frenzy":true,
+    "Ghost":true,
+    "Tactical Knife":true
+  }
+}
