@@ -21,14 +21,26 @@ To get the bot up and running:
    git clone https://github.com/your-username/eco-kill-tracker-bot.git
    ```
 
-2. Open the main.py file and replace the line bot.run(os.getenv("TOKEN")) with your bot's actual token.
-
-3. If you don't want our preset users in the user_data.db table, feel free to delete them.
-
-4. Run the bot:
+2. Navigate to the project directory:
 
    ```bash
-   python main.py
+   cd eco-kill-tracker-bot
+   ```
+
+3. Install project dependencies using [Poetry](https://python-poetry.org/):
+
+   ```bash
+   poetry install
+   ```
+
+4. Open the **`main.py`** file and replace the line **`bot.run(os.getenv("TOKEN"))`** with your bot's actual token.
+
+5. If you don't want our preset users in the **`user_data.db`**, feel free to delete them.
+
+6. Run the bot:
+
+   ```bash
+   poetry run python main.py
    ```
 
 ## Contributors
