@@ -35,7 +35,7 @@ To get the bot up and running:
 
 - [Dakota Pound](https://github.com/dakotaPPP) - requesta.py, main.py, and SQLite database (table_formatting.py)  
 - [Johnnie Chen](https://github.com/chenjohnnie) - requesta.py, main.py, and discord bot initalization
-- [Mac Tucker](https://github.com/collaborator-username) - request.py, main.py, and image manipulation and creation
+- [Mac Tucker](https://github.com/Mac-Tucker) - request.py, main.py, and image manipulation and creation
 
 ## License
 
