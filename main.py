@@ -155,46 +155,14 @@ async def last_ecos(ctx):
   formatted_time = central_time.strftime('%I:%M %p')
   embed.set_footer(text=f"guagua3 | {formatted_time}", icon_url="https://i.ibb.co/4NNdYjL/3c28066bb4f2855bddd254d8516aa149.jpg")
   if int(eco_kills) > 10:
-      file_path = f"{eco_kills}.png"
+      file_path = f"number_images/{eco_kills}.png"
   else:
-    file_path = f"{eco_kills}.jpg"
+    file_path = f"number_images/{eco_kills}.jpg"
   
   file = File(file_path, filename=file_path)
   embed.set_image(url=f"attachment://{file_path}")
   await ctx.send(embed=embed, file=file)
-
-
-
-  
-
-"""
-@bot.command()
-async def lasteco(ctx):
-  last_eco = requesta.most_recent_eco
-  urllib.request.urlretrieve(last_eco[2], 'gun1.png')
-  image1 = Image.open('gun1.png')
-  image1 = image1.transpose(Image.FLIP_LEFT_RIGHT)
-  urllib.request.urlretrieve(last_eco[5], 'gun2.png')
-  image2 = Image.open('gun2.png')
-  versus = Image.open('versus.png')
-  image1 = image1.resize((400, 300))
-  image2 = image2.resize((400, 300))
-  merged_image = Image.new('RGB',(2*image1.size[0]+versus.size[0], image1.size[1]), (250,250,250))
-  merged_image.paste(image1,(0,0))
-  merged_image.paste(image2,(image1.size[0]+versus.size[0],0))
-  merged_image.paste(versus,(int((image1.size[0])),0))
-  merged_image.save('merged_image.jpg', 'JPEG')
-  file = discord.File('merged_image.jpg')
-  
-  embed = discord.Embed(
-        title="LATEST ECO",
-        description=f'**{last_eco[0]}** killed **{last_eco[3]}** with a **{last_eco[1]}**. **{last_eco[3]}** had a **{last_eco[4]}**',
-        color=11421116
-    )
-  embed.set_image(url='attachment://merged_image.jpg')
-  await ctx.send(embed=embed, file=file)
-
-"""
+    
 
 try:
     bot.run(os.getenv("TOKEN"))
